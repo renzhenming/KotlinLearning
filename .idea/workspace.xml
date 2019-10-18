@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="238123cc-7a58-4a8b-adec-6fb48410d253" name="Default Changelist" comment="kotlin基本数据类型">
-      <change afterPath="$PROJECT_DIR$/src/可变变量和不可变变量.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/基本数据类型的取值范围.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/调用Java.kt" afterDir="false" />
+    <list default="true" id="238123cc-7a58-4a8b-adec-6fb48410d253" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/7-字符串两种定义.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/8-字符串去除空格.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/9-字符串比较.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" afterDir="false" />
     </list>
@@ -25,15 +25,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/1-HelloWorld.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/2-基本数据类型.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
@@ -43,7 +34,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/和Java基本数据类型的对比.kt">
+        <entry file="file://$PROJECT_DIR$/src/4-和Java基本数据类型的对比.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
               <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
@@ -52,7 +43,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/基本数据类型的取值范围.kt">
+        <entry file="file://$PROJECT_DIR$/src/3-基本数据类型的取值范围.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-427">
               <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
@@ -61,7 +52,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/调用Java.kt">
+        <entry file="file://$PROJECT_DIR$/src/5-调用Java.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
               <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
@@ -70,22 +61,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="dummy://kotlinDecompiled/调用Java.decompiled.java">
+        <entry file="file://$PROJECT_DIR$/src/6-可变变量和不可变变量.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="130">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/7-字符串两种定义.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/8-字符串去除空格.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/可变变量和不可变变量.kt">
+        <entry file="file://$PROJECT_DIR$/src/9-字符串比较.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="182">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/text/Indent.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -99,15 +114,6 @@
                 <element signature="e#34114#34115#0" expanded="true" />
                 <element signature="e#34170#34171#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/jvm/internal/Intrinsics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2366">
-              <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -134,12 +140,15 @@
         <option value="$PROJECT_DIR$/src/基本数据类型的取值范围.kt" />
         <option value="$PROJECT_DIR$/src/调用Java.kt" />
         <option value="$PROJECT_DIR$/src/可变变量和不可变变量.kt" />
+        <option value="$PROJECT_DIR$/src/7-字符串.kt" />
+        <option value="$PROJECT_DIR$/src/8-字符串去除空格.kt" />
+        <option value="$PROJECT_DIR$/src/9-字符串比较.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="353" />
-    <option name="y" value="36" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="289" />
+    <option name="y" value="72" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -174,7 +183,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571186689843" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571360080426" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -189,33 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin._5_调用JavaKt">
-    <configuration name="_1_HelloWorldKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_1_HelloWorldKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_2_基本数据类型Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_2_基本数据类型Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin._9_字符串比较Kt">
     <configuration name="_3_基本数据类型的取值范围Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="VM_PARAMETERS" />
@@ -224,19 +207,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="_3_基本数据类型的取值范围Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_4_和Java基本数据类型的对比Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_4_和Java基本数据类型的对比Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -255,13 +225,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_7_字符串两种定义Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_7_字符串两种定义Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_8_字符串去除空格Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_8_字符串去除空格Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_9_字符串比较Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_9_字符串比较Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._9_字符串比较Kt" />
+        <item itemvalue="Kotlin._8_字符串去除空格Kt" />
+        <item itemvalue="Kotlin._7_字符串两种定义Kt" />
         <item itemvalue="Kotlin._5_调用JavaKt" />
         <item itemvalue="Kotlin._3_基本数据类型的取值范围Kt" />
-        <item itemvalue="Kotlin._4_和Java基本数据类型的对比Kt" />
-        <item itemvalue="Kotlin._2_基本数据类型Kt" />
-        <item itemvalue="Kotlin._1_HelloWorldKt" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +285,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571095868851</updated>
       <workItem from="1571095874794" duration="1604000" />
-      <workItem from="1571185216619" duration="1468000" />
+      <workItem from="1571185216619" duration="3836000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin基本数据类型">
       <created>1571097455395</created>
@@ -285,17 +294,31 @@
       <option name="project" value="LOCAL" />
       <updated>1571097455396</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2019/10/16">
+      <created>1571186705036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571186705036</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2019/10/16 add">
+      <created>1571186785887</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571186785887</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3072000" />
+    <option name="totallyTimeSpent" value="5440000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="839" y="67" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25597015" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -304,7 +327,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3373102" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3591224" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -312,17 +335,17 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293979" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32794458" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5008183" side_tool="true" visible="true" weight="0.16311301" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5009009" side_tool="true" visible="true" weight="0.22835821" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Kotlin Bytecode" order="6" sideWeight="0.49918166" visible="true" weight="0.16311301" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="6" sideWeight="0.4990991" visible="true" weight="0.22835821" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -333,7 +356,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kotlin基本数据类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="kotlin基本数据类型" />
+    <MESSAGE value="2019/10/16" />
+    <MESSAGE value="2019/10/16 add" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/10/16 add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/1-HelloWorld.kt">
@@ -350,7 +375,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/和Java基本数据类型的对比.kt">
+    <entry file="file://$PROJECT_DIR$/src/4-和Java基本数据类型的对比.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
@@ -364,7 +389,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/基本数据类型的取值范围.kt">
+    <entry file="file://$PROJECT_DIR$/src/3-基本数据类型的取值范围.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-427">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
@@ -382,17 +407,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/调用Java.kt">
+    <entry file="file://$PROJECT_DIR$/src/5-调用Java.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/可变变量和不可变变量.kt">
+    <entry file="file://$PROJECT_DIR$/src/6-可变变量和不可变变量.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="130">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/7-字符串两种定义.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/text/Indent.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/8-字符串去除空格.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/9-字符串比较.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
