@@ -13,6 +13,14 @@ fun main(args: Array<String>) {
     for (c in range9){
         println(c)
     }
+
+    range1.forEach {
+        println(it)
+    }
+
+    range1.forEachIndexed { index, i ->
+        println("$i $index")
+    }
     val range10 = '赵'..'周'
 
 }
