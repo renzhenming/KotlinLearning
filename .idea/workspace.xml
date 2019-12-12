@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="238123cc-7a58-4a8b-adec-6fb48410d253" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/65-kotlin中的单例.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/66-伴生对象.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/67-伴生对象实现单例模式.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/68-枚举.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/68-枚举的构造函数.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/69-数据类.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/70-密封类.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/S.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/S.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/_64_子类可以调用父类的扩展函数Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_64_子类可以调用父类的扩展函数Kt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,19 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/64-子类可以调用父类的扩展函数.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/65-kotlin中的单例.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -65,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/66-伴生对象.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -83,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/68-枚举.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -92,16 +75,25 @@
         <entry file="file://$PROJECT_DIR$/src/68-枚举的构造函数.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/69-数据类.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/69-数据类.kt">
+        <entry file="file://$PROJECT_DIR$/src/70-密封类.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="416">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -149,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/21-区间定义.kt" />
         <option value="$PROJECT_DIR$/src/22-区间反转和反向区间.kt" />
         <option value="$PROJECT_DIR$/src/23-数组的创建.kt" />
         <option value="$PROJECT_DIR$/src/24-数组元素的修改.kt" />
@@ -200,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/68-枚举.kt" />
         <option value="$PROJECT_DIR$/src/68-枚举的构造函数.kt" />
         <option value="$PROJECT_DIR$/src/69-数据类.kt" />
+        <option value="$PROJECT_DIR$/src/70-密封类.kt" />
       </list>
     </option>
   </component>
@@ -210,8 +202,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="324" />
-    <option name="y" value="142" />
+    <option name="x" value="408" />
+    <option name="y" value="24" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -223,8 +215,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,7 +238,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575176495644" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576109979080" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -261,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin._69_数据类Kt">
+  <component name="RunManager" selected="Kotlin._70_密封类Kt">
     <configuration name="_65_kotlin中的单例Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="VM_PARAMETERS" />
@@ -327,10 +319,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_70_密封类Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_70_密封类Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._70_密封类Kt" />
         <item itemvalue="Kotlin._69_数据类Kt" />
-        <item itemvalue="Kotlin._68_枚举的构造函数Kt" />
         <item itemvalue="Kotlin._68_枚举Kt" />
         <item itemvalue="Kotlin._67_伴生对象实现单例模式Kt" />
         <item itemvalue="Kotlin._65_kotlin中的单例Kt" />
@@ -364,7 +369,8 @@
       <workItem from="1574557570610" duration="2275000" />
       <workItem from="1574560112872" duration="1310000" />
       <workItem from="1575102057566" duration="2115000" />
-      <workItem from="1575174009269" duration="2379000" />
+      <workItem from="1575174009269" duration="3204000" />
+      <workItem from="1576109337641" duration="1081000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin基本数据类型">
       <created>1571097455395</created>
@@ -471,17 +477,24 @@
       <option name="project" value="LOCAL" />
       <updated>1574560191227</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2019/12/01 add">
+      <created>1575176611155</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1575176611155</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45028000" />
+    <option name="totallyTimeSpent" value="46934000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="651" y="142" width="1400" height="1000" extended-state="0" />
+    <frame x="408" y="24" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18134329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -490,7 +503,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27251732" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27251732" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995381" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -534,23 +547,14 @@
     <MESSAGE value="2019/11/2 add" />
     <MESSAGE value="2019/11/3 add" />
     <MESSAGE value="2019/11/24 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/11/24 add" />
+    <MESSAGE value="2019/12/01 add" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/12/01 add" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/31-异常处理.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/30-可变参数.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -831,6 +835,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/64-子类可以调用父类的扩展函数.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/65-kotlin中的单例.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/66-伴生对象.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/67-伴生对象实现单例模式.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/68-枚举.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/68-枚举的构造函数.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/45-接口中的方法.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -852,52 +898,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/64-子类可以调用父类的扩展函数.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/65-kotlin中的单例.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/66-伴生对象.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/67-伴生对象实现单例模式.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/68-枚举.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/68-枚举的构造函数.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/69-数据类.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="78">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/70-密封类.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
