@@ -7,6 +7,18 @@ fun main(args: Array<String>) {
     println(sum)
     var sum2 = calculate(a,b,::jian)
     println(sum2)
+
+    //通过lambda表达式调用
+    val sum3 = calculate(a,b,{c,d->
+        c+d;
+    })
+    println(sum3)
+
+    //lambda更高级的写法
+    val sum4 = calculate(a,b){c,d->
+        c-d
+    }
+    println(sum4)
 }
 
 /**
