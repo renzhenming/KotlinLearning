@@ -23,4 +23,28 @@ fun main(args: Array<String>) {
     }
     val range10 = '赵'..'周'
 
+
+    val grade = 66
+    if(grade in 0..60){
+        println("不及格")
+    }else if (grade in 60..100){
+        println("及格")
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

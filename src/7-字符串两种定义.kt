@@ -18,4 +18,11 @@ fun main(args: Array<String>) {
         东明路
     """.trimIndent()
     println(place4)
+
+    val str = """
+        今天
+            明天
+                后天
+    """.trimIndent()
+    println(str)
 }

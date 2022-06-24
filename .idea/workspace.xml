@@ -2,12 +2,156 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="238123cc-7a58-4a8b-adec-6fb48410d253" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/73-有参lambda表达式.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/74.反引号的作用.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/75.内联函数.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/76-高阶函数（函数做函数返回值）.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaFileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/72-高阶函数.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/72-高阶函数.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Animal2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Animal2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Banana.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Banana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Box.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Chicken.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Chicken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Chineses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Chineses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Chineses2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Chineses2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Chineses3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Chineses3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/ClassOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ClassOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/ClassTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ClassTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Clazz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Clazz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Clean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Clean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Daughter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Daughter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/F.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/F.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Father.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Father.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Fruit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/FruitBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/FruitBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/HH$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/HH$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/HH.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/HH.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Haha$name2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Haha$name2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Haha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Haha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/HighTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/HighTeacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/HotDog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/HotDog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Human2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Human2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Jone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Jone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/MagicBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/MagicBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Man.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/MeFather.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/MeFather.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/MeFather2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/MeFather2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/MeFather3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/MeFather3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/MiddleTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/MiddleTeacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Mother.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Mother.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/MySon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/MySon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/MySon2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/MySon2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/MyWife.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/MyWife.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Nothing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Nothing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Nothing2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Nothing2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Orange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Orange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Outer$Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Outer$Inner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Outer$Inner2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Outer$Inner2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Outer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Outer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Outer2$Inner3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Outer2$Inner3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Outer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Outer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/People.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/People.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Person2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Person2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Person3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Person3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Potato.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Potato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/S.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/S.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Shopping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Shopping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Son.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Son.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Teacher2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Teacher2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Thing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Thing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/TomFather.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/TomFather.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Tomato.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Tomato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Travel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Travel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Vegetable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Vegetable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Wash.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Wash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Wash2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Wash2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Worker2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Worker2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_10_字符串切割Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_10_字符串切割Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_11_二元元组和三元元组Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_11_二元元组和三元元组Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_12_空值处理运算符Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_12_空值处理运算符Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_13_输入输出函数Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_13_输入输出函数Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_14_嵌套函数Kt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_14_嵌套函数Kt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_14_嵌套函数Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_14_嵌套函数Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_15_字符串模板Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_15_字符串模板Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_16_kotlin中的if语句Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_16_kotlin中的if语句Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_17_for和foreach循环Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_17_for和foreach循环Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_18_continue和breakKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_18_continue和breakKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_19_返回到标签处Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_19_返回到标签处Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_1_HelloWorldKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_1_HelloWorldKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_20_while和do_whlieKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_20_while和do_whlieKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_21_区间定义Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_21_区间定义Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_22_区间反转和反向区间Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_22_区间反转和反向区间Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_23_数组的创建Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_23_数组的创建Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_24_数组元素的修改Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_24_数组元素的修改Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_25_数组元素角标的查找Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_25_数组元素角标的查找Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_26_when表达式Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_26_when表达式Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_27_when表达式加强版Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_27_when表达式加强版Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_28_函数引用和匿名函数Kt$main$hehe$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_28_函数引用和匿名函数Kt$main$hehe$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_28_函数引用和匿名函数Kt$main$padd$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_28_函数引用和匿名函数Kt$main$padd$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_28_函数引用和匿名函数Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_28_函数引用和匿名函数Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_29_默认参数和具名参数Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_29_默认参数和具名参数Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_2_基本数据类型Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_2_基本数据类型Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_30_可变参数Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_30_可变参数Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_31_异常处理Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_31_异常处理Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_32_递归Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_32_递归Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_33_递归的缺点Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_33_递归的缺点Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_34_尾递归优化Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_34_尾递归优化Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_35_运算符重载Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_35_运算符重载Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_36_get和set方法Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_36_get和set方法Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_37_访问器的可见性Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_37_访问器的可见性Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_38_访问器_set方法_的控制Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_38_访问器_set方法_的控制Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_39_构造函数Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_39_构造函数Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_3_基本数据类型的取值范围Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_3_基本数据类型的取值范围Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_40_次构造函数Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_40_次构造函数Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_41_init和次构造函数的执行顺序Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_41_init和次构造函数的执行顺序Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_42_继承Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_42_继承Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_43_抽象类Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_43_抽象类Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_44_接口Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_44_接口Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_45_接口中的方法Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_45_接口中的方法Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_46_多态Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_46_多态Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_47_智能类型转换Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_47_智能类型转换Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_48_嵌套类和内部类Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_48_嵌套类和内部类Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_49_this关键字访问外部类同名属性Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_49_this关键字访问外部类同名属性Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_4_和Java基本数据类型的对比Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_4_和Java基本数据类型的对比Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_50_泛型类Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_50_泛型类Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_51_泛型方法Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_51_泛型方法Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_52_泛型上线Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_52_泛型上线Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_53_泛型擦除Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_53_泛型擦除Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_54_泛型类型映射Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_54_泛型类型映射Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_55_星号投射Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_55_星号投射Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_56_中缀表达式Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_56_中缀表达式Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_57_类委托Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_57_类委托Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_58_类委托2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_58_类委托2Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_59_类委托功能增强Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_59_类委托功能增强Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_5_调用JavaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_5_调用JavaKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_60_属性委托Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_60_属性委托Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_61_懒加载lazyKt$name3$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_61_懒加载lazyKt$name3$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_61_懒加载lazyKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_61_懒加载lazyKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_62_延迟加载Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_62_延迟加载Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_63_扩展函数Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_63_扩展函数Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_64_子类可以调用父类的扩展函数Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_64_子类可以调用父类的扩展函数Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_6_可变变量和不可变变量Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_6_可变变量和不可变变量Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_7_字符串两种定义Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_7_字符串两种定义Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_8_字符串去除空格Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_8_字符串去除空格Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/_9_字符串比较Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_9_字符串比较Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/21-区间定义.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/21-区间定义.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/26-when表达式.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/26-when表达式.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/28-函数引用和匿名函数.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/28-函数引用和匿名函数.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/29-默认参数和具名参数.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/29-默认参数和具名参数.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6-可变变量和不可变变量.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/6-可变变量和不可变变量.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7-字符串两种定义.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/7-字符串两种定义.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/72-高阶函数.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/72-高阶函数（函数做函数参数）.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8-字符串去除空格.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/8-字符串去除空格.kt" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,103 +178,11 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/68-枚举.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/68-枚举的构造函数.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/69-数据类.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/70-密封类.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/71-闭包.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/72-高阶函数.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/73-有参lambda表达式.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/45-接口中的方法.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/43-抽象类.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/55-星号投射.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -196,6 +248,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand />
@@ -208,6 +263,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectId" id="2B0oP3ZbrnxtHJQxwekM7JL7Am9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -236,113 +292,62 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576318664694" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Kotlin._73_有参lambda表达式Kt">
-    <configuration name="_68_枚举的构造函数Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "/Users/renzhenming/AndroidStudioProjects/KotlinLearning"
+  }
+}]]></component>
+  <component name="RunManager" selected="Kotlin._76_高阶函数_函数做函数返回值_Kt">
+    <configuration name="_28_函数引用和匿名函数Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_28_函数引用和匿名函数Kt" />
       <module name="untitled" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_68_枚举的构造函数Kt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_69_数据类Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_72_高阶函数_函数做函数参数_Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_72_高阶函数_函数做函数参数_Kt" />
       <module name="untitled" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_69_数据类Kt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_70_密封类Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_74_反引号的作用Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_74_反引号的作用Kt" />
       <module name="untitled" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_70_密封类Kt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_71_闭包Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_75_内联函数Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_75_内联函数Kt" />
       <module name="untitled" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_71_闭包Kt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_72_高阶函数Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_76_高阶函数_函数做函数返回值_Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_76_高阶函数_函数做函数返回值_Kt" />
       <module name="untitled" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_72_高阶函数Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_73_有参lambda表达式Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_73_有参lambda表达式Kt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._73_有参lambda表达式Kt" />
-        <item itemvalue="Kotlin._72_高阶函数Kt" />
-        <item itemvalue="Kotlin._71_闭包Kt" />
-        <item itemvalue="Kotlin._70_密封类Kt" />
-        <item itemvalue="Kotlin._69_数据类Kt" />
+        <item itemvalue="Kotlin._76_高阶函数_函数做函数返回值_Kt" />
+        <item itemvalue="Kotlin._75_内联函数Kt" />
+        <item itemvalue="Kotlin._72_高阶函数_函数做函数参数_Kt" />
+        <item itemvalue="Kotlin._28_函数引用和匿名函数Kt" />
+        <item itemvalue="Kotlin._74_反引号的作用Kt" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -546,6 +551,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kotlin基本数据类型" />
