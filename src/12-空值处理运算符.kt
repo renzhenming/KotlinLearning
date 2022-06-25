@@ -7,6 +7,15 @@ fun main(args: Array<String>) {
     str?.toInt()
 
     //?:如果为空，则返回默认值0
-    val b:Int = str?.toInt()?:0
+    val b: Int = str?.toInt() ?: 0
     println(b)
+
+    var name: String? = "rzm"
+    name?.let {
+        var length = name?.length
+        println(it)
+    }
+
+    name = null
+    checkNotNull(name)
 }

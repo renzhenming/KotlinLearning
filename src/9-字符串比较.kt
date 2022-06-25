@@ -1,5 +1,6 @@
 fun main(args: Array<String>) {
     val str1 = "abc"
+    val str3 = "abc"
     val str2 = String(charArrayOf('a','b','c'))
     //比较的是值
     println(str1.equals(str2))
@@ -7,4 +8,5 @@ fun main(args: Array<String>) {
 
     //比较的是地址
     println(str1 === str2)
+    println(str1 === str3)
 }
