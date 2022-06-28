@@ -7,10 +7,10 @@ fun main(args: Array<String>) {
 
     //运行时异常和Java相同
     try {
-        var k = i/j
-    }catch (e:Exception){
+        var k = i / j
+    } catch (e: Exception) {
         println("捕获到异常")
-    }finally {
+    } finally {
         println("最终执行的代码")
     }
     //kotlin中没有编译时异常

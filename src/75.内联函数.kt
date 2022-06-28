@@ -61,7 +61,8 @@ inline fun register2(name: String, password: String, callbackFun: (String, Int) 
 }
 
 /**
- * 普通函数声明为内联函数，也会在调用端直接进行代码替换
+ * 普通函数声明为内联函数，也会在调用端直接进行代码替换，但是性能优化有限，通常
+ * 内联函数只在有lambda表达式做参数时使用
  */
 inline fun register3(name: String, password: String) {
 

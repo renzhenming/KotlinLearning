@@ -35,3 +35,7 @@ fun main() {
         println(this)
     }
 }
+
+public inline fun <E, R> E.myWith(calback: E.() -> R): R {
+    return calback(this)
+}

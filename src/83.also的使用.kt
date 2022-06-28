@@ -21,3 +21,8 @@ fun main() {
     }
     println(s)
 }
+
+public inline fun <Q> Q.myAlso(callback: (Q) -> Unit): Q {
+    callback(this)
+    return this
+}

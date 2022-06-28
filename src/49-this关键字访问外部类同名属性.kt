@@ -3,12 +3,16 @@ fun main(args: Array<String>) {
     inner.sayname()
 }
 
-class Outer2{
-    val name  = "张三"
+class Outer2 {
+    val name = "张三"
 
-    inner class Inner3{
-        val name ="李四"
-        fun sayname(){
+    class Inner4 {
+
+    }
+
+    inner class Inner3 {
+        val name = "李四"
+        fun sayname() {
             println(name)
 
             //访问外部类属性，等同于Java中的Outer2.this.name

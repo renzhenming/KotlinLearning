@@ -1,13 +1,13 @@
 fun main(args: Array<String>) {
     val str = "abc"
-    for (c in str){
-        if (c == 'b'){
+    for (c in str) {
+        if (c == 'b') {
             continue
         }
         println(c)
     }
-    for (c in str){
-        if (c == 'c'){
+    for (c in str) {
+        if (c == 'c') {
             break
         }
         println(c)

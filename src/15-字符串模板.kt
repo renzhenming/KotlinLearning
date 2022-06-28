@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
     var place = "故宫"
     var time = "5"
-    whatToDo(place,time)
+    whatToDo(place, time)
 }
 
 fun whatToDo(place: String, time: String) {

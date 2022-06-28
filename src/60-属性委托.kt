@@ -9,11 +9,11 @@ fun main(args: Array<String>) {
 
 }
 
-class Daughter{
-    var 压岁钱:Int by Mother()
+class Daughter {
+    var 压岁钱: Int by Mother()
 }
 
-class Mother{
+class Mother {
     operator fun getValue(daughter: Daughter, property: KProperty<*>): Int {
         return 女儿的压岁钱
     }

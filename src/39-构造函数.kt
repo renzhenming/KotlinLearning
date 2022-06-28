@@ -1,9 +1,9 @@
 fun main(args: Array<String>) {
-    val person = Worker("张三",20)
+    val person = Worker("张三", 20)
     println(person.name)
     println(person.age)
 
-    val w = Worker2("李四",32)
+    val w = Worker2("李四", 32)
     println(w.age)
     println(w.name)
 }
@@ -11,9 +11,9 @@ fun main(args: Array<String>) {
 /**
  * 构造函数
  */
-class Worker(name:String,age:Int){
-    var name:String = ""
-    var age:Int = 0
+class Worker(name: String, age: Int) {
+    var name: String = ""
+    var age: Int = 0
 
     //构造函数中写的代码可以在init中执行
     init {
@@ -25,4 +25,11 @@ class Worker(name:String,age:Int){
 /**
  * 构造函数简化版写法，（类中没有任何定义，大括号可以去掉）
  */
-class Worker2(var name:String,var age:Int)
+class Worker2(var name: String, var age: Int)
+
+class Student(name: String, age: Int) {
+    var name = name
+        get() = if (name.isNullOrEmpty()) "" else name
+    var age = age
+        set(value) = if (value < 0) field = 0 else field = value
+}

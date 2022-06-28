@@ -25,17 +25,17 @@ fun main(args: Array<String>) {
  * 第n个 = 第(n-2)+(n-1)个 = ((n-3)+(n-4))+((n-2)+(n-3))
  */
 fun todo2(n: Int): Int {
-    return if(n == 1 || n == 2){
+    return if (n == 1 || n == 2) {
         1
-    }else{
-        todo2(n-1)+todo2(n-2)
+    } else {
+        todo2(n - 1) + todo2(n - 2)
     }
 }
 
-fun todo(n:Int):Int{
-    return if(n == 1){
+fun todo(n: Int): Int {
+    return if (n == 1) {
         1
-    }else{
-        n*todo(n-1)
+    } else {
+        n * todo(n - 1)
     }
 }

@@ -9,5 +9,5 @@ fun main(args: Array<String>) {
     do {
         println(a)
         a++
-    }while (a<=199)
+    } while (a <= 199)
 }

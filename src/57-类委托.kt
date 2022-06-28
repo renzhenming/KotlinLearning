@@ -4,11 +4,11 @@ fun main(args: Array<String>) {
     f.wash()
 }
 
-interface Wash{
+interface Wash {
     fun wash()
 }
 
-class MySon:Wash{
+class MySon : Wash {
     override fun wash() {
         println("儿子洗碗")
     }
@@ -16,4 +16,4 @@ class MySon:Wash{
 }
 
 //Wash能力委托给MySon
-class MeFather:Wash by MySon()
+class MeFather : Wash by MySon()

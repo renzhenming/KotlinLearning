@@ -4,13 +4,13 @@ fun main(args: Array<String>) {
     /**
      * 打印结果表明第一次调用初始化了，第二次已经不再执行lazy中的代码
      * 初始化1
-       初始化2
-       王五
-       王五
+    初始化2
+    王五
+    王五
      */
 }
 
-val name3:String by lazy {
+val name3: String by lazy {
     println("初始化1")
     println("初始化2")
     "王五"
@@ -22,9 +22,9 @@ val name3:String by lazy {
  * 3.最后一行是返回值
  * 4.线程安全的
  */
-class Haha{
-    val name:String = "张三"
-    val name2:String by lazy {
+class Haha {
+    val name: String = "张三"
+    val name2: String by lazy {
         "李四"
     }
 }

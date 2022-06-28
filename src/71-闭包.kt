@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
  * 成为闭包
  * 在kotlin里面我们通常说的闭包就是lambda表达式
  */
-fun test():()->Unit{
+fun test(): () -> Unit {
     var a = 10
     return {
         println(a)

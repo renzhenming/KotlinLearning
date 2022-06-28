@@ -1,10 +1,10 @@
 fun main(args: Array<String>) {
     val str = "今天|明天|后天"
-    var split:List<String> = str.split("|")
+    var split: List<String> = str.split("|")
     println(split)
 
     val str2 = "今天|明天=后天"
-    var split1:List<String> = str2.split("|", "=")
+    var split1: List<String> = str2.split("|", "=")
     println(split1)
 
     val path = "/Users/renzhenming/desktop/admin/path"

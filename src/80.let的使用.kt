@@ -15,11 +15,15 @@ fun main() {
      * 2.返回最后一行
      */
 
-    var str:String? = null
+    var str: String? = null
     str = ""
     var temp = str?.let {
         println("str不是null")
         false
-    }?:"str是null"
+    } ?: "str是null"
     println(temp)
+}
+
+public inline fun <T, Q> T.myLet(callback: (T) -> Q): Q {
+    return callback(this)
 }

@@ -1,12 +1,12 @@
 fun main(args: Array<String>) {
-    val s:F = S()
+    val s: F = S()
     println(s.teaching())
 }
 
 //F扩展函数
-fun F.teaching(){
+fun F.teaching() {
     println("上课")
 }
 
 open class F
-class S: F()
+class S : F()

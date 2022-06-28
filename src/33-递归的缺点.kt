@@ -11,21 +11,21 @@ fun main(args: Array<String>) {
     println(resutl)
 }
 
-fun addNum(n:Int) :Int{
+fun addNum(n: Int): Int {
     var m = n
     var i = 0
-    while(m >0){
-        i+=m
+    while (m > 0) {
+        i += m
         m--
     }
     println(i)
     return i
 }
 
-fun diguiAddNum(n:Int):Int{
-    return if(n == 1){
+fun diguiAddNum(n: Int): Int {
+    return if (n == 1) {
         1
-    }else{
-        n+diguiAddNum(n-1)
+    } else {
+        n + diguiAddNum(n - 1)
     }
 }

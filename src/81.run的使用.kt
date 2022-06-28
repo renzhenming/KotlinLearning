@@ -29,3 +29,7 @@ fun main() {
 
     //apply不行，因为apply返回值是调用者本身
 }
+
+public inline fun <T, Y> T.myRun(calback: T.() -> Y): Y {
+    return calback(this)
+}

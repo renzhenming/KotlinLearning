@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    val array = arrayOf("张三","李四","王五","赵二","张三")
+    val array = arrayOf("张三", "李四", "王五", "赵二", "张三")
     val index = array.indexOf("李四")
     println(index)
 
