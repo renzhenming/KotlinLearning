@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="238123cc-7a58-4a8b-adec-6fb48410d253" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/103.lambda模拟Android点击事件.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/104.协程使用.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/_23_数组的创建Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/_23_数组的创建Kt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
