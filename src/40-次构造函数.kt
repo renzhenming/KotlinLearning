@@ -17,6 +17,7 @@ fun main(args: Array<String>) {
 
 class Nothing(var name: String, var age: Int) { //必须要有的属性
 
+    var sex: String = ""
     var phone: Int = 0
 
     //次构造函数，必须要调用主构造函数
@@ -24,7 +25,9 @@ class Nothing(var name: String, var age: Int) { //必须要有的属性
         this.phone = phone
     }
 
-
+    constructor(name: String, age: Int, sex: String) : this(name, age) {
+        this.sex = sex
+    }
 }
 
 class Manager(_name: String, _sex: String) {

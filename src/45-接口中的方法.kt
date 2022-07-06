@@ -14,5 +14,7 @@ interface HH {
 }
 
 class Chineses3 : HH {
-
+    override fun doSomeThing() {
+        super.doSomeThing()
+    }
 }

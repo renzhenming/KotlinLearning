@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
     val chineses = Chineses2("红色", "中文", 2)
-
+    chineses.other()
     chineses.eat()
     chineses.doShopping()
     chineses.toTravel()
@@ -24,6 +24,10 @@ interface Travel {
 
 interface Shopping {
     fun doShopping()
+
+    fun other(){
+        println("other")
+    }
 }
 
 /**

@@ -6,6 +6,15 @@ fun main(args: Array<String>) {
     val w = Worker2("李四", 32)
     println(w.age)
     println(w.name)
+
+    println()
+    var s = Student22(null, -1)
+    println(s._age)
+    println(s._name)
+
+    var ss = Student(null, -1)
+    //stackoverflow，这个用法是错误的
+    println(ss.name)
 }
 
 /**
@@ -27,9 +36,20 @@ class Worker(name: String, age: Int) {
  */
 class Worker2(var name: String, var age: Int)
 
-class Student(name: String, age: Int) {
+//会发生stackoverflow
+class Student(name: String?, age: Int) {
     var name = name
-        get() = if (name.isNullOrEmpty()) "" else name
+        //stackoverflow，这个用法是错误的
+//        get() = if (name.isNullOrEmpty()) "" else name
     var age = age
         set(value) = if (value < 0) field = 0 else field = value
+}
+
+class Student22(name: String?, age: Int) {
+    var _name: String? = name
+        //必须用field做判断，否则会stackoverflow
+        get() = if (field.isNullOrEmpty()) "is null" else _name
+    var _age = age
+        //必须用field做判断，否则会stackoverflow
+        get() = if (field < 0) 0 else field
 }

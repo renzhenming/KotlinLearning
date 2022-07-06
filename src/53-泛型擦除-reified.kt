@@ -43,4 +43,9 @@ class Banana<S>(size: S) {
     inline fun <reified T> print2(size: T) {
         println(T::class.java.name)
     }
+
+    //编译失败，必须有inline
+//    fun <reified T> print22(size: T) {
+//        println(T::class.java.name)
+//    }
 }

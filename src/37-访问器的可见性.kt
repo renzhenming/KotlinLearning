@@ -15,7 +15,9 @@ fun main(args: Array<String>) {
  */
 class Person2 {
     var name: String = "张三"
+        public set
     var age: Int = 20
+        public set
 
     var sex = "男"
         private set  //私有了他上边一行这个变量的set方法，转为Java会发现set方法加了private

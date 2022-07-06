@@ -20,5 +20,5 @@ fun main(args: Array<String>) {
     //运行后报错
     //Exception in thread "main" java.io.FileNotFoundException: path:\xxx (文件名、目录名或卷标语法不正确。)
     val path = File("path:///xxx")
-    val stream = FileInputStream(path)
+    val stream = FileInputStream(path) //kotlin没有编译时异常
 }

@@ -21,4 +21,12 @@ class Man(var name: String, var age: Int) {
         temp.name = this.name + man.name
         return temp
     }
+
+    operator fun not() {
+
+    }
+
+    operator fun Man.minus(man: Man): Man {
+        return Man("", 1);
+    }
 }

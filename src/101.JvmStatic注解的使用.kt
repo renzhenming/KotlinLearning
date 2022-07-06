@@ -20,7 +20,6 @@ class MyKotlinStatic {
 class MyKotlinStatic2 {
     companion object {
 
-        //转java后，私有化，并提供get函数
         @JvmField //转为public,去掉get方法
         val mClassName = "MyKotlinStatic"
 

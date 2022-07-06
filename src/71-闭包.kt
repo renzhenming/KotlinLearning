@@ -8,6 +8,9 @@ fun main(args: Array<String>) {
     result()
     result()
     result()
+
+    var aGoodMethod = aGoodMethod("rzm", 30)
+    aGoodMethod.invoke()
 }
 
 /**
@@ -20,5 +23,11 @@ fun test(): () -> Unit {
     return {
         println(a)
         a++
+    }
+}
+
+fun aGoodMethod(name: String, age: Int): () -> Unit {
+    return {
+        println(name)
     }
 }
