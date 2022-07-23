@@ -1,11 +1,11 @@
 fun main(args: Array<String>) {
     val testCompanion = TestCompanion()
     //伴生对象中的属性都是静态的
-//    println(TestCompanion.name)
-//    println(TestCompanion.age)
+    println(TestCompanion.name)
+    println(TestCompanion.age)
 //
 //    //非静态变量，通过对象调用
-//    println(testCompanion.sex)
+    println(testCompanion.sex)
 }
 
 

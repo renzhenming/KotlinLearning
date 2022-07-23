@@ -3,7 +3,7 @@ fun main() {
 }
 
 fun checkLogin2(name: String, password: String): String {
-    //takeIf后如果是true，则返回"欢迎 $name 登录成功"，false，返回"登录失败，用户未注册"
+    //如果代码块predicate里面返回为false，则返回这个对象本身，否则返回空
     return "欢迎 $name 登录成功".takeUnless { checkUserNotRegistered(name) } ?: "用户未注册"
 }
 

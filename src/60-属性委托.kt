@@ -15,10 +15,12 @@ class Daughter {
 
 class Mother {
     operator fun getValue(daughter: Daughter, property: KProperty<*>): Int {
+        println("daughter = $daughter property = $property")
         return 女儿的压岁钱
     }
 
     operator fun setValue(daughter: Daughter, property: KProperty<*>, i: Int) {
+        println("daughter = $daughter property = $property i = $i")
         女儿的压岁钱 += 50
         收取的回扣 += i - 50
     }

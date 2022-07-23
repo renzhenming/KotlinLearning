@@ -1,4 +1,5 @@
 @file:JvmName("JvmUtils")
+
 //指定文件名，
 fun getName(): String {
     return "name"
@@ -6,7 +7,20 @@ fun getName(): String {
 
 fun main() {
     println(getName())
+    method1("rzm", mutableListOf<String>())
+    method1("zzl", mutableListOf<Int>())
 }
+
+@JvmName("myMethod1")
+fun method1(name: String, list: List<String>) {
+    println(name)
+}
+
+@JvmName("myMethod2")
+fun method1(name: String, list: List<Int>) {
+
+}
+
 
 /**
  * 转换成java后是这个样子

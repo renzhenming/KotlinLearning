@@ -9,6 +9,9 @@ fun main(args: Array<String>) {
 
     val f3 = MeFather3(MyWife())
     f3.wash()
+
+    var ff = MeFather2()
+    ff.wash()
 }
 
 interface Wash2 {

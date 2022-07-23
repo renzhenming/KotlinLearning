@@ -24,3 +24,14 @@ class AManager2 {
     @JvmField
     val names = listOf<String>("章三", "里斯", "王武")
 }
+
+fun main() {
+
+    //都可以调用
+    var m = AManager2()
+    m.names
+
+    //在java中无法这样调用，除非加上JvmField注解，见JavaFileTest
+    var m2 = AManager()
+    m2.names
+}

@@ -24,6 +24,7 @@ val name3: String by lazy {
  */
 class Haha {
     val name: String = "张三"
+    //by lazy即是一个属性委托
     val name2: String by lazy {
         "李四"
     }

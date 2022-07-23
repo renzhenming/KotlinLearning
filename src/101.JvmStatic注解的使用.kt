@@ -34,5 +34,9 @@ class MyKotlinStatic2 {
         fun showTips() {
             println("showTips method")
         }
+
+        fun showTips2(){
+            println("showTips2 method")
+        }
     }
 }

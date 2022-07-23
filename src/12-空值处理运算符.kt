@@ -19,3 +19,7 @@ fun main(args: Array<String>) {
     name = null
     checkNotNull(name)
 }
+
+fun getObject(any: Any) {
+    println(any)
+}

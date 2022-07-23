@@ -23,3 +23,21 @@ class Chineses(override var color: String, override var language: String) : Huma
     }
 
 }
+
+class English : Human() {
+    override var color: String = ""
+        get() = color
+        set(value) {
+            field = value
+        }
+    override var language: String = ""
+        get() = language
+        set(value) {
+            field = if(value == "英语") "son" else "儿子"
+        }
+
+    override fun eat() {
+
+    }
+
+}

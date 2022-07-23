@@ -31,3 +31,8 @@ inline fun <R> R.myapply(callback: R.() -> Unit): R {
     callback(this)
     return this
 }
+
+inline  fun <R> R.myApply2(callback:R.()->Unit):R{
+    callback(this)
+    return this
+}

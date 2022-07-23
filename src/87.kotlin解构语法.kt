@@ -1,7 +1,7 @@
 fun main() {
 
 
-    var listOf = listOf("zhangsan", "lisi", "wangwu")
+    var listOf = listOf("zhangsan", "lisi", "wangwu","找刘","黑孩")
 
     //接收后不可修改
     val (n1, n2, n3) = listOf

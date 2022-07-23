@@ -17,6 +17,10 @@ fun main(args: Array<String>) {
         a + b + 100
     }
 
+    var myMethod: (String, String) -> String = { name, sex ->
+        name + sex
+    }
+
     val other: (String, String) -> String = { name, sex ->
         println(name + sex)
         ""//匿名函数不用写return，最后一行作为返回值，隐式返回

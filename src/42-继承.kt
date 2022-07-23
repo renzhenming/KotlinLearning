@@ -6,9 +6,14 @@ fun main(args: Array<String>) {
 abstract class Father {
     open var name: String = "张三"
     open var age: Int = 20
+    var sex: String = "男"
 
     open fun heshui() {
         println("father 爱喝水")
+    }
+
+    fun work() {
+        println("工作")
     }
 
     abstract fun doSomething();
@@ -16,6 +21,7 @@ abstract class Father {
 
 //Father类有一个默认构造函数，需要被调用，加上括号
 class Son : Father() {
+
 
     //通过override关键字覆盖父类中的同名字段，但是在父类中默认这个字段
     //不能被覆盖，需要加上open关键字,
@@ -31,7 +37,7 @@ class Son : Father() {
     }
 }
 
-class Son2 :Father(){
+class Son2 : Father() {
     override fun doSomething() {
     }
 

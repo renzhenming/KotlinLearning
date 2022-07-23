@@ -1,5 +1,6 @@
 import java.io.File
 import java.io.FileInputStream
+import java.io.FileOutputStream
 
 fun main(args: Array<String>) {
     var i = 10
@@ -21,4 +22,10 @@ fun main(args: Array<String>) {
     //Exception in thread "main" java.io.FileNotFoundException: path:\xxx (文件名、目录名或卷标语法不正确。)
     val path = File("path:///xxx")
     val stream = FileInputStream(path) //kotlin没有编译时异常
+}
+
+fun copyFile(){
+    //没有异常提醒
+    var inputStream = FileInputStream(File(""))
+    var outputStream = FileOutputStream(File(""))
 }
