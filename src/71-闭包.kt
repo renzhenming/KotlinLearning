@@ -14,6 +14,9 @@ fun main(args: Array<String>) {
     var aGoodMethod = aGoodMethod("rzm", 30)
     aGoodMethod.invoke()
 
+    val newMethod = ::unique
+    newMethod("哈哈哈")
+
     var login = login("renzhenming", "123")
     println("拿到用户数据了，登录成功，退出当前页面")
     login()
@@ -38,9 +41,13 @@ fun aGoodMethod(name: String, age: Int): () -> Unit {
     }
 }
 
-fun login(name:String ,password:String):()->Unit{
+fun login(name: String, password: String): () -> Unit {
     println("$name 开始登录，登录成功")
     return {
         println("外界已经知道登录成功了，可以退出了")
     }
+}
+
+fun unique(name: String) {
+
 }

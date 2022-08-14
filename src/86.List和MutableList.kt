@@ -63,4 +63,14 @@ fun main() {
     listOf.forEachIndexed { index, i ->
         println("indec: $index value: $i")
     }
+
+    println("-----------------")
+
+    for ((index, i) in listOf.withIndex()) {
+        println("indec: $index value: $i")
+    }
+
+    val b: Byte = 12
+    var c = b + b
+    println(c.getClassname())
 }

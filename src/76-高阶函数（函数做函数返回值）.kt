@@ -10,3 +10,10 @@ fun logout(name: String, age: Int): (String, String) -> String {
         "$name,$age who is comming?"
     }
 }
+
+inline fun login(name: String, age: Int): (String, String) -> String {
+    println("$name $age");
+    return { name: String, age: String ->
+        "$name,$age who is comming?"
+    }
+}

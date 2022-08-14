@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
     val person = Person2()
     person.age = 30
-    person.name = "尖峰时刻"
+//    person.name = "尖峰时刻"
     println(person.age)
     println(person.name)
 
@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
  */
 class Person2 {
     var name: String = "张三"
-        public set
+        private set
     var age: Int = 20
         public set
 

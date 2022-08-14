@@ -17,6 +17,10 @@ fun main(args: Array<String>) {
         a + b + 100
     }
 
+    val haha: (Int, String) -> String = { age, name ->
+        age.toString() + name
+    }
+
     var myMethod: (String, String) -> String = { name, sex ->
         name + sex
     }

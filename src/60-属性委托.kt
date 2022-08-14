@@ -11,6 +11,17 @@ fun main(args: Array<String>) {
 
 class Daughter {
     var 压岁钱: Int by Mother()
+    var 买衣服: Int by Brother()
+}
+
+class Brother{
+    operator fun getValue(daughter: Daughter, property: KProperty<*>): Int {
+       return 0
+    }
+
+    operator fun setValue(daughter: Daughter, property: KProperty<*>, i: Int) {
+
+    }
 }
 
 class Mother {

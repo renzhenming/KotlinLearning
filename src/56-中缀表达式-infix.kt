@@ -10,6 +10,9 @@ fun main(args: Array<String>) {
     mapOf<Int, Int>(2.to(3))
 
     println("a" with "b")
+
+    p.createWorkFor("哈哈")
+    p createWorkFor "人类"
 }
 
 infix fun <K, V> K.with(v: V) {
@@ -31,5 +34,9 @@ class People {
 
     infix fun sayHelloTo2(name: String) {
         println("你好 ${name}")
+    }
+
+    infix fun createWorkFor(name: String) {
+        println("创造美好，造福$name")
     }
 }

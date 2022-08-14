@@ -22,6 +22,10 @@ class Man(var name: String, var age: Int) {
         return temp
     }
 
+    operator fun Man.div(man: Man): Int {
+        return this.age / man.age
+    }
+
     operator fun not() {
 
     }

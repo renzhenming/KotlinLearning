@@ -1,3 +1,5 @@
+import java.net.ProtocolFamily
+
 fun main(args: Array<String>) {
     var n = Nothing("张三", 31)
     println(n.age)
@@ -27,6 +29,12 @@ class Nothing(var name: String, var age: Int) { //必须要有的属性
 
     constructor(name: String, age: Int, sex: String) : this(name, age) {
         this.sex = sex
+    }
+
+    constructor(
+        name: String, age: Int, sex: String, national: String, from: String, family: ProtocolFamily
+    ) : this(name, age) {
+
     }
 }
 
