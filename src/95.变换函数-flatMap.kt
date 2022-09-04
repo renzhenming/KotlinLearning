@@ -22,7 +22,7 @@ fun main() {
 
     var listOf3 = listOf<String>("dd", "ed", "fd")
     var flatMap1 = listOf3.flatMap {
-        listOf("$it hello")
+        listOf("$it hello, $it world, $it what")
     }
     println(flatMap1)
 }
